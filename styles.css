@@ -2,12 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
 }
 
 body {
   background-color: black;
   color: white;
+  font-family: 'Arial', sans-serif;
+
 }
 
 .navbar {
@@ -22,15 +23,13 @@ body {
 
 .navbar .logo img {
   height: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .navbar .search-bar {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 700px;
+  max-width: 700px;
   position: relative;
 }
 
@@ -46,7 +45,7 @@ body {
 .navbar .search-bar::before {
   content: "🔍";
   position: absolute;
-  left: 60px;
+  left: 12px;
   top: 6px;
   font-size: 20px;
 }
@@ -66,7 +65,7 @@ body {
 .leftparentdiv{
     height: 90svh;
     width: 40%;
-    color: white;
+
 }
 .lefts{
     width: 90%;
@@ -93,7 +92,7 @@ body {
 .rightparentdiv{
     height: 90svh;
     width: 60%;
-    color: white;
+
 }
 .rightRow {
     height: 27vh;
@@ -137,11 +136,6 @@ body {
   background-color: #1f2937;
   border-radius: 10px;
   text-align: center;
-}
-
-.forecast-day .icon {
-  font-size: 2rem;
-  margin-bottom: 5px;
 }
 
 .forecast-day .temp {
